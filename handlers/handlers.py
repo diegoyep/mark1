@@ -6,3 +6,9 @@ class MainHandler(tornado.web.RequestHandler):
 			"index.html",
 			page_title = " Mark1 Project"
 			)
+
+
+class LoginHandler(tornado.web.RequestHandler):
+	def get(self):
+		pass
+		
